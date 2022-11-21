@@ -6,12 +6,19 @@ import Repeticao from "./basicos/Repeticao"
 import Condicional from "./basicos/Condicional"
 import './App.css'
 import Pai from "./comunicacao/direta/Pai"
+import Super from "./comunicacao/indireta/Super"
 
 
 function App(){
 
   return(
     <div className="App">
+
+      
+    <Card titulo='#06 Comunicacao indireta' color='#000'>
+      <Super></Super>
+     </Card>
+
 
     <Card titulo='#06 Comunicacao Direta' color='#add6ff'>
       <Pai sobrenome='Gaucho'/>

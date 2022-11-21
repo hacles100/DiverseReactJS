@@ -1,7 +1,10 @@
-function Sub(){
+
+function Sub(props){
 
     return(
-        <div></div>
+        <div>
+            <button onClick={()=> {props.noClicar(Math.random())}}>Alterar</button>
+        </div>
     )
 }
 
