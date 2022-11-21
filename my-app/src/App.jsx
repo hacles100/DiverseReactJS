@@ -4,11 +4,12 @@ import ComFilhos from "./basicos/ComFilhos"
 import Card from "./components/layout/Card"
 import Repeticao from "./basicos/Repeticao"
 import Condicional from "./basicos/Condicional"
-import './App.css'
 import Pai from "./comunicacao/direta/Pai"
 import Super from "./comunicacao/indireta/Super"
 import Input from "./components/layout/form/Input"
 import Contador from "./components/contador/Contador"
+import Mega from "./components/mega/Mega"
+import './App.css'
 
 
 function App(){
@@ -17,10 +18,14 @@ function App(){
     <div className="App">
 
       <h1>Fundamentos ReactJS</h1>
-
       <div className="Cards">
 
-     <Card titulo='#09 Contadpr' color='#851e3e'>
+      <Card titulo='#10 Mega' color='#dec3c3'>
+       <Mega qtdNumero={8}></Mega>
+      </Card>
+
+
+     <Card titulo='#09 Contad0r' color='#851e3e'>
       <Contador passo={5} valor={10}></Contador>
      </Card>
 
